@@ -8,7 +8,7 @@ page_bg_img = '''<style>
 background-color:#2B5DB9}
 </style>'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
-colT1, colT2 = st.columns([,])
+colT1, colT2 = st.columns([1,1])
 with colT2:
   image = Image.open('project.png')
  # st.image(image, width=1000)
