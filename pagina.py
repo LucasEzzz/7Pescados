@@ -11,4 +11,4 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 colT1, colT2 = st.columns([5,5])
 with colT2:
   image = Image.open('project1.jpeg')
-  st.image(image, width=800)
+  st.image(image, width=300)
