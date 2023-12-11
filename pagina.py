@@ -7,7 +7,7 @@ page_bg_img = '''<style>
 [data-testid="stAppViewContainer"] {
 background-color:#FFFFFF}
 </style>'''
-#page_bg_img = '''<style>
+page_bg_img = '''<style>
   [data-testid="stAppViewContainer"] {
     background-color:#FFFFFF}
       </style>'''
