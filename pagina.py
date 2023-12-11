@@ -6,7 +6,7 @@ from PIL import Image
 #page_bg_img = '''<style>
 #[data-testid="stAppViewContainer"] {
 #background-color:#FFFFFF}
-</style>'''
+#</style>'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
 colT1, colT2 = st.columns([1, 5])
 with colT2:
