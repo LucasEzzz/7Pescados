@@ -3,8 +3,8 @@ import streamlit as st
 from PIL import Image
 
 #background
-page_bg_img = '''<style>
-[data-testid="stAppViewContainer"] {
+#page_bg_img = '''<style>
+#[data-testid="stAppViewContainer"] {
 background-color:#FFFFFF}
 </style>'''
 st.markdown(page_bg_img, unsafe_allow_html=True)
