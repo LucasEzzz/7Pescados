@@ -10,5 +10,5 @@ background-color:#2B5DB9}
 st.markdown(page_bg_img, unsafe_allow_html=True)
 colT1, colT2 = st.columns([,])
 with colT2:
-  image = Image.open('project2.jpeg')
+  image = Image.open('project.png')
  # st.image(image, width=1000)
