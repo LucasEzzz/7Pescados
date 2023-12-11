@@ -1,11 +1,14 @@
+#import
 import streamlit as st
+from PIL import Image
 
-page_bg_img = """
-<style>
+#background
+page_bg_img = '''<style>
 [data-testid="stAppViewContainer"] {
-background-image: url("https://i.imgur.com/fnCdgY6.png")
-background-size: cover;
-}
-</style>
-"""
-st.markdown(page_bg_img, unsafe_allow_html = True)
+background-color:#FFFFFF}
+</style>'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
+colT1, colT2 = st.columns([1, 5])
+with colT2:
+  image = Image.open('project.png')
+  st.image(image, width=400)
