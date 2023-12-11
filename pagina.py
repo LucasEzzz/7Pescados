@@ -15,7 +15,7 @@ import streamlit as st
 
 page_bg_img = """
 [data-testid="stAppViewContainer"] {
-background-image: ("https://i.imgur.com/VhCeAjZ.jpeg");
+background-image: Image.open('project2.jpeg')
 background-size: cover;
 }
 [data-testid="stHeader"]{
