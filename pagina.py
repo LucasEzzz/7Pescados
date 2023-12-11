@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Importe a imagem
-imagem = "https://i.imgur.com/fnCdgY6.png"
+imagem = https://i.imgur.com/fnCdgY6.png
 
 # Crie o código CSS
 css = """
