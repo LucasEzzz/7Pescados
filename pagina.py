@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 #background
-page_bg_img = '''<style>
+#page_bg_img = '''<style>
 [data-testid="stAppViewContainer"] {
 background-color:#FFFFFF}
 </style>'''
