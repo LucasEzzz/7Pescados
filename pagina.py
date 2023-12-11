@@ -18,6 +18,13 @@ page_bg_img = """
 background-image: https://unsplash.com/pt-br/fotografias/9D9tYZ5xq3c;
 background-size: cover;
 }
+[data-testid="stHeader"]{
+background-color: rgba(0, 0, 0, 0);
+}
+[data-testid="stToolbar"]{
+right: 2rem;
+}
+</style>
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
