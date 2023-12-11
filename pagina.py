@@ -2,7 +2,7 @@
 import streamlit as st
 from PIL import Image
 
-background
+#background
 page_bg_img = '''<style>
 [data-testid="stAppViewContainer"] {
 background-color:#2B5DB9}
